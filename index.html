@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedéx</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="screen" id="start-screen">
+        <h1 class="title" id="main-title">Minha Pokedéx</h1>
+        <p class="description">Bem-vindo à Pokedéx! Aqui você pode ver as evoluções do Bulbasaur e suas descrições. Navegue pelos Pokémon usando os botões de próximo e anterior.</p>
+        <p class="author">By: alvzdev</p>
+        <button id="start-button">Começar</button>
+    </div>
+
+    <div class="screen" id="pokedex-screen" style="display: none;">
+        <div class="pokedex">
+            <h2 id="pokemon-name">Bulbasaur</h2>
+            <img id="pokemon-image" src="images/bulbasaur.png" alt="Bulbasaur">
+            <div class="description">
+                <p id="pokemon-desc">Bulbasaur é um Pokémon do tipo Planta/Veneno. Ele tem uma semente de planta nas costas que cresce lentamente conforme ele absorve nutrientes. À medida que ele envelhece, a semente floresce em uma grande planta.</p>
+                <p>
+                    <span class="type" id="type1">Grama</span>
+                    <span class="type" id="type2">Veneno</span>
+                </p>
+            </div>
+            <div class="navigation">
+                <button id="prev-button">&larr; Anterior</button>
+                <button id="next-button">Próximo &rarr;</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
